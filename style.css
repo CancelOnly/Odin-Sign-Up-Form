@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  position: absolute;
+  overscroll-behavior: none;
+}
+
+.bg {
+  height: 100vh;
+  width: 40vw;
+  object-fit: cover;
+}
+
+.logo {
+    
+  position: absolute;
+  height: 6rem;
+  width: auto;
+}
+
+.logo-glass {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 40vw;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.logo-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
