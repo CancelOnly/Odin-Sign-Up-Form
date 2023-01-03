@@ -7,9 +7,9 @@ function checkPassword() {
 
     if (password.length != 0) {
         if (password == cnfrmPassword) {
-            passwordBorder.style.borderColor = "green";
-            cpasswordBorder.style.borderColor = "green";
             message.textContent = "Password match";
+            passwordBorder.style.borderColor = "#e5e7eb";
+            cpasswordBorder.style.borderColor = "#e5e7eb";
             message.style.color = "black";
         } else {
             message.textContent = "Password don't match";
@@ -20,9 +20,8 @@ function checkPassword() {
     }
 
     else {
-        passwordBorder.style.borderColor = "red";
-        cpasswordBorder.style.borderColor = "red";
-        message.style.color = "red";
+        passwordBorder.style.borderColor = "#e5e7eb";
+        cpasswordBorder.style.borderColor = "#e5e7eb";
         message.textContent = "Need at least 1 character";
     }
 }
