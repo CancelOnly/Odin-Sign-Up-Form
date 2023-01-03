@@ -13,8 +13,8 @@ body {
 
 .logo {
   position: absolute;
-  height: 6rem;
-  width: auto;
+  height: 5rem;
+  width: 13rem;
 }
 
 .logo-glass {
@@ -104,6 +104,13 @@ input:focus {
   padding-left: 2.5rem;
   width: 60vw;
   gap: 1.2rem;
+}
+
+p#message {
+  font-size: 12px;
+  margin: -0.8rem 0rem 1rem 0rem;
+
+  
 }
 
 button {

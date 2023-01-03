@@ -57,19 +57,20 @@
         
         <div>
         <label for="password">Password</label>
-        <input type="password" name="user_password" id="user_password">
+        <input type="password" name="password" id="password">
+        <p id="message">*</p>
         </div>
         
         <div>
-        <label for="password">Confirm Password</label>
-        <input type="password" name="user_password" id="user_password">
+        <label for="cnfrm_password">Confirm Password</label>
+        <input type="password" name="cnfrm_password" id="cnfrm_password">
         </div>
     </fieldset>
     </div>
     </div>
     
     <div class="submit-btn">
-    <button type="submit">Create Account</button>
+    <button type="submit" value="SUBMIT" onclick="checkPassword()">Create Account</button>
     <p>Already have an account? <a href="#">Log in</a></p>
     </div>
 
